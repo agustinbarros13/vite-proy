@@ -1,15 +1,15 @@
 import React from 'react'
-import Gallery from './gallery'
-import Icon from './icon'
+import Header from './components/Header'
+import Gallery from './components/Gallery'
+import './styles/App.css'
 
-function Main() {
+function App() {
   return (
-    <div>
-      <h1>Mi Galería de Imágenes</h1>
-      <Gallery /> {/* Usamos el componente Gallery */}
-      <Icon /> {/* Usamos el componente Icon */}
+    <div className='App'>
+      <Header />
+      <Gallery />
     </div>
   )
 }
 
-export default Main
+export default App
