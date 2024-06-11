@@ -1,15 +1,12 @@
 import React from 'react'
-import Header from './components/Header'
 import Gallery from './components/Gallery'
 import './styles/App.css'
 
-function App() {
-  return (
-    <div className='App'>
-      <Header />
-      <Gallery />
-    </div>
-  )
-}
+const App = () => (
+  <div className='App'>
+    <h1>Pinterest-like Gallery</h1>
+    <Gallery />
+  </div>
+)
 
 export default App
