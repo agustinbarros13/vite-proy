@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/PinCard.css'
+import '../Styles/PinCard.css'
 
 const PinCard = ({ src, alt }) => (
   <div className='pin-card'>

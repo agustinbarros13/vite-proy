@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaPinterest } from 'react-icons/fa'
-import './Styles/Header.css'
+import '../Styles/Header.css'
 
 const Header = () => {
   return (

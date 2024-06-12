@@ -1,6 +1,6 @@
 import React from 'react'
 import PinCard from './PinCard'
-import './Styles/Gallery.css'
+import '../Styles/Gallery.css'
 
 const images = [
   { src: '/images/image1.jpg', alt: 'Image 1' },
