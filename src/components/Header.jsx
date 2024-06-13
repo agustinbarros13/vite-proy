@@ -1,14 +1,11 @@
 import React from 'react'
-import { FaPinterest } from 'react-icons/fa'
 import '../Styles/Header.css'
 
-const Header = () => {
-  return (
-    <header className='header'>
-      <FaPinterest className='header-icon' />
-      <h1>Pinterest Clone</h1>
-    </header>
-  )
-}
+const Header = () => (
+  <header className='header'>
+    <h1>Pinterest-like Gallery</h1>
+    <input type='text' placeholder='Search for images...' />
+  </header>
+)
 
 export default Header

@@ -1,17 +1,11 @@
 .pin-card {
-  width: 100%;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.pin-card-image {
+.pin-card img {
   width: 100%;
   height: auto;
-}
-
-.pin-card-description {
-  padding: 10px;
-  background-color: #fff;
+  display: block;
 }

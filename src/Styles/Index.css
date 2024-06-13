@@ -30,7 +30,6 @@
   --body-font: 'Roboto', sans-serif;
 }
 
-/* Estilos generales */
 body {
   font-family: var(--body-font);
   color: var(--text-color);
@@ -45,9 +44,6 @@ h5,
 h6 {
   font-family: var(--heading-font);
 }
-
-/* Otros estilos específicos de tu aplicación */
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

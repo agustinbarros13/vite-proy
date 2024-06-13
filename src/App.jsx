@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from './components/Header'
 import Gallery from './components/Gallery'
 import './Styles/App.css'
+
 const App = () => (
-  <div className='App'>
-    <h1>Pinterest-like Gallery</h1>
+  <div className='app'>
+    <Header />
     <Gallery />
   </div>
 )
